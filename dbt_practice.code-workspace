@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "dbt_practice",
+		"path": "."
+	},
+	{
+		"name": "dbt_course",
+		"path": "../dbt_course"
+	},
+	{
+		"name": ".dbt",
+		"path": "../../.dbt"
+	}
+],
+  "settings": {}
+}

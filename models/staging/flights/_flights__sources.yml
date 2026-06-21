@@ -1,0 +1,24 @@
+sources:
+  - name: demo_src
+    description: Data from Ext DB
+    # database: dwh_flight
+    # schema: demo_src
+    tables:
+      - name: aircrafts
+        description: >
+          Aircrft models
+          other text
+        columns:
+          - name: aircraft_code
+            description: code
+            test:
+              - not_null
+              - unique
+          - name: model
+            description: model
+          - name: "range"
+            description: range
+      - name: airports
+        description: Airports
+      - name: seats
+        description: Seats in airplanes
